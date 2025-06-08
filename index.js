@@ -40,7 +40,7 @@ const ownerNumber = config.OWNER_NUM;
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + "/sessions/creds.json")) {
   if (!config.SESSION_ID)
-    return console.log("Please add your session to SESSION_ID env !!");
+    return console.log("HANS-BYTE~AmsjUAhD#fB5pp4YUp1axVJPiPQVljeoZKOnUA96JNuhWE-GLfbM");
   const sessdata = config.SESSION_ID.replace('HANS-BYTE~', '');
   const filer = File.fromURL(`https://mega.nz/file/${sessdata}`);
   filer.download((err, data) => {
